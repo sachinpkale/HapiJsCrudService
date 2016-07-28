@@ -1,0 +1,26 @@
+{
+  "name": "hapijs_service",
+  "version": "1.0.0",
+  "description": "A simple service based on Hapi Js",
+  "author": "Sachin Kale",
+  "license": "ISC",
+  "scripts": {
+    "build": "babel src -d lib",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "hapi": "^13.5.0",
+    "es6-promisify": "^4.1.0",
+    "mysql": "^2.10.2",
+    "sequelize": "*",
+    "body-parser": "^1.15.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "eslint": "~2.8.0",
+    "babel-plugin-syntax-async-functions": "^6.1.4",
+    "babel-plugin-transform-regenerator": "^6.1.4",
+    "babel-polyfill": "^6.1.4",
+    "babel-preset-es2015": "^6.1.4"
+  }
+}
